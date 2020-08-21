@@ -1,0 +1,66 @@
+.weatherOutput {
+  min-width: 350px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  width: 35%;
+  padding: 1%;
+  /* background-image: url("https://www.pngkey.com/png/detail/129-1296419_cartoon-mountains-png-mountain-animation-png.png"); */
+  background: linear-gradient(transparent, #ffd3e4);
+  color: #ce2666;
+  text-align: center;
+  justify-content: center;
+  border-radius: 12px;
+  box-shadow: 0px 3px 10px #ce2666;
+}
+
+.weatherOutput > h1 {
+  font-size: 70px;
+  flex: 1;
+  border-radius: 30px;
+  padding: 1%;
+}
+
+.weatherOutput > h3 {
+  font-size: 30px;
+}
+
+.weatherOutput > img {
+  width: 100%;
+  height: 100px;
+  object-fit: contain;
+  color: black;
+}
+
+.weatherOutput > p {
+  font-weight: 50;
+  font-size: 22px;
+}
+
+.weatherOutput-description {
+  display: flex;
+}
+
+.weatherOutput-descriptionLeft {
+  text-align: center;
+  flex: 0.5;
+  margin-top: 60px;
+  padding: 2%;
+}
+
+.weatherOutput-descriptionLeft > p {
+  font-weight: 550;
+  font-size: 22px;
+}
+
+.weatherOutput-descriptionRight {
+  text-align: center;
+  flex: 0.5;
+  margin-top: 60px;
+  padding: 2%;
+}
+
+.weatherOutput-descriptionRight > p {
+  font-weight: 550;
+  font-size: 22px;
+}
